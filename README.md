@@ -27,6 +27,9 @@ npm -v
  ```
 NPM Install
  ```
+ ```
+NPM run start
+ ```
 
 
 ## Specifications
