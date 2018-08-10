@@ -34,8 +34,7 @@ $(function () {
         $("#output").append("<p>" + "No Doctors Meet Criteria" + "</p>");
       }
     }, function (error) {
-      $("#error").text(`there was an Error:${error.message}`);
-      $("#error").text(`there was an Error:${error.message}`);
+      $("#error").html("<p>"+`there was an Error:${error.message}`+"</p>");
     });
   });
 
@@ -66,6 +65,8 @@ $(function () {
       } else {
         $("#output").append("<p>" + "No Doctors Meet Criteria" + "</p>");
       }
+    }, function (error) {
+      $("#error").html("<p>"+`there was an Error:${error.message}`+"</p>");
     });
   });
 });
