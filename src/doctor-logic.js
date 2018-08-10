@@ -11,7 +11,7 @@ export class Doctor{
         }
       }
       request.open("GET", url, true);
-      request.send();
+      request.send()
     });
   }
 }
