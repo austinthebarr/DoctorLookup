@@ -15,7 +15,9 @@ $(function () {
 
     promise.then(function (response) {
       let doctor = JSON.parse(response);
-      $("#output").append(`${doctor.data[0].profile.first_name}`);
+      for(let i = 0; i < doctor.data.length; i++){
+        $("#output").append('<li>' + doctor.data[i].profile.first_name + '<li>');
+      }
     }, function (error) {
       $("#error").text(`there was an Error:${error.message}`);
     });
