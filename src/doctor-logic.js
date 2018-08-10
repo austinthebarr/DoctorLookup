@@ -11,7 +11,7 @@ export class Doctor{
         }
       };
       request.open("GET", url, true);
-      request.send();
+      request.send()
     });
   }
 
@@ -25,7 +25,7 @@ export class Doctor{
         } else {
           reject(Error(request.statusText));
         }
-      };
+      }
       request.open("GET", url, true);
       request.send();
     });
