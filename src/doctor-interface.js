@@ -5,6 +5,7 @@ import {
   Doctor
 } from './../src/doctor-logic.js';
 
+
 $(function () {
   let newDoctor = new Doctor();
   let specialPromise = newDoctor.getAllSpecialties();
