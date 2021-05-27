@@ -1,4 +1,4 @@
-# Doctor Lookup (Node.Js)
+# Doctor Lookup
 
 A web app, built with Node.Js, using an API will allow a user to serach for Doctors in the Portland area.
 
@@ -42,7 +42,7 @@ NPM run start
 
 ### Technologies Used
 
-* Node.JS
+* Jquery
 * JAVASCRIPT
 * BetterDoctor API
 
