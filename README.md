@@ -1,6 +1,6 @@
 # Doctor Lookup
 
-A web app, built with Node.Js, using an API will allow a user to serach for Doctors in the Portland area.
+Simple fetching of data from a 3rd party API that allows a user to serach for Doctors in the Portland area.
 
 ## Created
 Epicodus Independent Project 08/10/2018
